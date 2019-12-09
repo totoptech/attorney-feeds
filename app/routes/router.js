@@ -99,6 +99,12 @@ function saveCase_FAM(case_info){
     return _newCase.save();
 }
 
+function saveCase_FM(case_info){
+    var case_data = getCaseInfo(case_info);
+    var _newCase = new Cases(case_data);
+    return _newCase.save();
+}
+
 async function diagnosis_Case(case_info, court_type){
     var is_dup = 0; // 0:Create Case, 1:Update Case, 2:No action
     const case_number = case_info.Case_Number;
