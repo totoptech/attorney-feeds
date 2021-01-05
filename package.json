@@ -12,7 +12,7 @@
   "author": "Serge",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "mongoose": "^5.7.5",
     "promise-sequential": "^1.1.1"
